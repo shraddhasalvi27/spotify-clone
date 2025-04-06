@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+/* In global CSS */
+.custom-scroll::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .custom-scroll::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+  
+  .custom-scroll {
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* Internet Explorer 10+ */
+  }
+  
+  .custom-scroll::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera */
+  }
+  

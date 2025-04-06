@@ -1,0 +1,46 @@
+/* Make background clean */
+.custom-player {
+    background: transparent !important;
+    box-shadow: none !important;
+    padding: 0;
+    margin-top: 10px;
+  }
+  
+  /* Remove unwanted sections */
+  .custom-player .rhap_volume-controls,
+  .custom-player .rhap_additional-controls {
+    display: none;
+  }
+  
+  /* Progress bar on top */
+  .custom-player .rhap_progress-section {
+    order: -1; /* Ensures it appears above controls */
+    margin-bottom: 12px;
+  }
+  
+  .custom-player .rhap_progress-bar {
+    background-color: #4b5563 !important; /* Tailwind gray-700 */
+    height: 6px;
+    border-radius: 9999px;
+  }
+  
+  .custom-player .rhap_progress-filled {
+    background-color: #fbbf24 !important; /* Tailwind amber-400 */
+  }
+  
+  .custom-player .rhap_progress-indicator {
+    background-color: white !important;
+  }
+  
+  /* Time labels */
+  .custom-player .rhap_time {
+    color: white;
+    font-size: 12px;
+  }
+  
+  /* Center the main controls */
+  .custom-player .rhap_controls-section {
+    justify-content: center;
+    gap: 24px;
+  }
+  
